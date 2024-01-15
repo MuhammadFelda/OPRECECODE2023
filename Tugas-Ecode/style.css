@@ -1,0 +1,433 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(image/image\ 6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgba(246, 246, 246, 1);
+}
+.logo{
+    width: 32px;
+    height: 32px;
+}
+.navbar{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.navbar1{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    color: black;
+}
+.navbar1 a{
+    text-decoration: none;
+    color: black;
+}
+.navbar2{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.navbar2 a{
+    text-decoration: none;
+    color: black;
+}
+.button2{
+    width: 200px;
+    height: 32px;
+    line-height: 32px;
+    background-color: rgba(219, 26, 90, 1);
+    text-align: center;
+    border-radius: 6px;
+}
+.button2 a{
+    font-size: 24px;
+    color: white;
+}
+main{
+    margin-top: 126px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.herosection-content{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text1{
+    font-size: 18px;
+    color: rgba(219, 26, 90, 1);
+}
+.hero-text2{
+    font-size: 70px;
+    width: 850px;
+    margin-top: 10px;
+}
+.hero-text3{
+    width: 550px;
+    font-size: 24px;
+}
+.hero-button{
+    display: flex;
+    gap: 10px;
+}
+.hero-button1{
+    width: 120px;
+    height: 36px;
+    background-color: rgba(219, 26, 90, 1);
+    border: 1px solid rgba(144, 24, 64, 1);
+    text-align: center;
+    border-radius: 6px;
+    line-height: 36px; /* Sesuaikan dengan tinggi kotak Anda */
+    color: white; /* Warna teks agar terlihat jelas pada latar belakang */
+}
+.hero-button1 a{
+    text-decoration: none;
+    color: white;
+}
+.hero-button2{
+    width: 72px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 6px;
+    line-height: 36px;
+}
+.hero-button2 a{
+    text-decoration: none;
+}
+.img1{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 img{
+    width: 1410px;
+}
+.brand h2{
+    font-size: 32px;
+    text-align: center;
+}
+.img-brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Pusatkan gambar secara horizontal */
+    align-items: center; /* Pusatkan gambar secara vertikal */
+}
+
+.brands {
+    width: 400px; /* Sesuaikan lebar gambar sesuai kebutuhan */
+    height: auto; /* Sesuaikan tinggi gambar sesuai kebutuhan */
+    margin: 5px; /* Jarak antar gambar */
+}
+.feature-section h2{
+    text-align: center;
+    font-size: 32px;
+}
+.feature-content{
+    display: flex;
+}
+.line{
+    position: relative;
+    width: 5px;
+    height: 800px;
+    background: linear-gradient(to bottom, rgba(219, 26, 90, 1) 0%, rgba(200, 200, 200, 1) 33.33%, rgba(200, 200, 200, 1) 33.34%, rgba(200, 200, 200, 1) 100%); /* Warna garis */
+    margin: 100px;
+}
+.circle {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgba(200, 200, 200, 1); 
+    box-shadow: 0 2px 4px rgba(113, 63, 63, 0.2);
+}
+.circle.top {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(219, 26, 90, 1);
+}
+.circle.middle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.circle.bottom {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.subtitle{
+    margin-top: 70px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.subtitle img{
+    width: 42px;
+    height: 42px;
+}
+.subtitle p{
+    font-size: 20px;
+}
+.main-text{
+    width: 610px;
+    gap: 10px;
+}
+.text-button{
+    display: flex;
+    gap: 20px;
+}
+.body-text-button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.text-button1{
+    width: 150px;
+    height: 32px;
+    line-height: 32px;
+    background-color: rgba(219, 26, 90, 1);
+    border-radius: 6px;
+    text-align: center;
+}
+.text-button1 a{
+    text-decoration: none;
+    color: white;
+}
+.text-button2{
+    border: 1px solid black;
+    width: 210px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 6px;
+}
+.text-button2 a{
+    text-decoration: none;
+    color: black;
+}
+.compatibility{
+    display: flex;
+    margin: 100px;
+    justify-content: space-between;
+}
+.compatibility-text{
+    width: 610px;
+}
+.compatibility-text h2{
+    font-size: 48px;
+    text-align: justify;
+}
+.compatibility-text p{
+    font-size: 24px;
+    text-align: justify;
+}
+.compa-button{
+    display: flex;
+    gap: 20px;
+}
+.compa-button1{
+    width: 148px;
+    height: 32px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgba(219, 26, 90, 1);
+}
+.compa-button1 a{
+    text-decoration: none;
+    color: white;
+}
+.compa-button2{
+    width: 197px;
+    height: 32px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.compa-button2 a{
+    text-decoration: none;
+    color: black;
+}
+.compa-pic img{
+    width: 670px;
+    margin-top: 50px;
+}
+.develop{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.develop h2{
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+.dev-button{
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgba(219, 26, 90, 1);
+    text-align: center;
+    border-radius: 6px;
+}
+.color-text{
+    color: rgba(219, 26, 90, 1);
+}
+.dev-button a{
+    text-decoration: none;
+    color: white;
+}
+.user h2{
+    text-align: center;
+}
+.user1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.box{
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 1px solid black;
+    width: 295px;
+    height: 175px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+}
+.isi-box{
+    margin: 10px;
+}
+.atas{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-apps{
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+}
+.username{
+    display: flex;
+    gap: 10px;
+}
+.profile{
+    width: 36px;
+    height: 36px;
+}
+footer{
+    margin-top: 50px;
+    background-color: rgba(219, 26, 90, 1);
+    width: 100%;
+}
+.isi-footer{
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.apps{
+    display: flex;
+    gap: 20px;
+}
+.kanan{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    color: white;
+}
+.bottom-h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+}
+.button-project{
+    background-color: rgba(219, 26, 90, 1);
+    text-align: center;
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 6px;
+}
+.button-project a{
+    text-decoration: none;
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template {
+    text-align: center; /* Center align the content */
+}
+
+/* .outer-box {
+    
+}
+.inner-box{
+    
+} */
+.subtitle{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.subtitle h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.template-text h2{
+    font-size: 32px;
+}
+.template-text p{
+    font-size: 20px;
+    width: 810px;
+}
+.template-button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.template-button1{
+    background-color: rgba(219, 26, 90, 1);
+    text-align: center;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 6px;
+}
+.template-button1 a{
+    text-decoration: none;
+    color: white;
+}
+.template-button2{
+    width: 197px;
+    height: 32px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.template-button2 a{
+    text-decoration: none;
+    color: black;
+}
